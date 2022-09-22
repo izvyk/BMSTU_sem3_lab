@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаба 4</title><script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Лаба 4</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-3">
+        <h2>Добавить элемент</h2>
+        <form>
+          <div class="mb-3 mt-3">
+            <input type="text" class="form-control" placeholder="Наименование">
+          </div>
+          <div class="mb-3">
+            <input type="number" class="form-control" placeholder="Стоимость">
+          </div>
+          <button type="submit" class="btn btn-primary">Добавить</button>
+        </form>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <h2>Striped Rows</h2>
+        <p>The .table-striped class adds zebra-stripes to a table:</p>
+        <table class="table table-hover" id="items-table">
+            <thead>
+                <tr>
+                    <th>Наименование</th>
+                    <th>Стоимость</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container" id="tree-container">
+        <div class="row">
+            <button id="show-tree-btn" class="btn btn-primary col" onclick="update_cost()">Посчитать стоимость</button>
+        </div>
+    </div>
+
+    <br>
+
+</body>
+</html>
