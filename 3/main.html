@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Лаба 3</title>
-    <script src="doc_elements_list.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
 </head>
 
@@ -20,6 +20,7 @@
     </header>
 
     <div class="container">
+        <br>
         <h2>Striped Rows</h2>
         <p>The .table-striped class adds zebra-stripes to a table:</p>
         <table class="table table-striped">
@@ -58,7 +59,7 @@
         </div>
 
         <div class="row">
-            <button id="show-tree-btn" class="btn btn-primary col" onclick="show_page_tree()">Print this page tree</button>
+            <button id="show-tree-btn" class="btn btn-primary col" onclick="show_page_tree(); show_tree_btn_disable();">Print this page tree</button>
         </div>
 
         <div class="row">
